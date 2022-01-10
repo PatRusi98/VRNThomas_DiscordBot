@@ -1,0 +1,16 @@
+{
+"dependencies": {
+"discord.js": "^13.5.0"
+},
+"token": "OTI4NDQ1NjUzODEyNjY2Mzc4.YdY4ZQ.Chbw5X8exWq6rGMs2wc0-JiRpq8",
+"name": "vrnbot",
+"version": "1.0.0",
+"main": "index.js",
+"devDependencies": {},
+"scripts": {
+"test": "echo \"Error: no test specified\" && exit 1"
+},
+"author": "",
+"license": "ISC",
+"description": ""
+}

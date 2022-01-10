@@ -11,4 +11,20 @@ client.on('ready', () => {
     console.log('Bot is online')
 })
 
-client.login('OTI4NDQ1NjUzODEyNjY2Mzc4.YdY4ZQ.Chbw5X8exWq6rGMs2wc0-JiRpq8')
+client.on('messageCreate', (message) => {
+    if (message.content === 'hello there') {
+        message.reply({
+            content: 'obi wan kenobi',
+        })
+    }
+})
+
+client.on('messageCreate', (message) => {
+    if (message.content === 'co by na to povedal marek?') {
+        message.reply({
+            content: 'koncis v rookie stars',
+        })
+    }
+})
+
+client.login('OTI4NDQ1NjUzODEyNjY2Mzc4.YdY4ZQ.7CI1liX5Ps31F7C-91vFNzG_u4g')

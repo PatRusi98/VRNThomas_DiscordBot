@@ -27,4 +27,14 @@ client.on('messageCreate', (message) => {
     }
 })
 
+client.on('messageCreate', (message) => {
+    if (message.content === 'have a nice day Peter') {
+        message.reply({
+            content: 'vyhul prdel',
+        })
+    }
+})
+
+
+
 client.login('OTI4NDQ1NjUzODEyNjY2Mzc4.YdY4ZQ.7CI1liX5Ps31F7C-91vFNzG_u4g')
